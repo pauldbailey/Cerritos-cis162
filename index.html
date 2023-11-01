@@ -1,17 +1,20 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Paul Bailey, paul, bailey, old, student, home" />
+    <link href="main.css" rel="stylesheet" />
     <title>About Paul</title>
 </head>
 
 <body>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="#">School</a>
+        <a href="index.html" class="navlink">Home</a>
+        &nbsp;
+        <a href="about.html" class="navlink">About</a>
+        &nbsp;
+        <a href="#" class="navlink">School </a>
     </nav>
 
     <header>
@@ -24,10 +27,10 @@
          here slowly building my skills and filling in all the holes.
         </p>
 
-        <h2>My Interests</h2>
+        <h1>My Interests</h1>
         <ul>
             <li>
-                <a href="https://disneyland.disney.go.com">Disneyland</a> <em>The Happiest Place On Earth</em>
+                <a href="https://disneyland.disney.go.com" target="_blank" rel="noopener noreferrer">Disneyland</a> <em>The Happiest Place On Earth</em>
             </li>
             <li>
                 Woodworking
@@ -37,11 +40,12 @@
             </li>
         </ul>
     <footer>
-        <p> Last Modified: <span id="demo"></span> </p>
+      <p class="navlink"> Last Modified: <span id="demo"></span> </p>
         <script>
             const date = new Date(document.lastModified);
             document.getElementById("demo").innerHTML = date;
         </script>
+        <a href="mailto:paul.daniel.bailey@gmail.com" class="navlink">Send Email</a>
    </footer>
 </body>
 
