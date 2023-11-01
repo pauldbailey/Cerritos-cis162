@@ -4,14 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Paul Bailey, paul, bailey, old, student, about" />
-    <title>About Paul</title>
+    <link href="main.css" rel="stylesheet" />
+    <title>Paul Bailey</title>
 </head>
 
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="#">School</a>
+   <nav>
+        <a href="index.html" class="navlink">Home</a>
+        &nbsp;
+        <a href="about.html" class="navlink">About</a>
+        &nbsp;
+        <a href="#" class="navlink">School </a>
     </nav>
 
     <header>
@@ -41,7 +44,7 @@
     </ul>
     I want to use my background in special education and my experience working with Microsoft Access to develop robust systems that work through the internet to service the needs of schools that specialize in students with special needs.
 
-    <h2>Skills</h2>
+    <h1>Skills</h1>
     <ul>
         <li>Woodworking for 12 years</li>
         <li>Handywork (except plumbing.  I HATE plunbing)</li>
@@ -49,14 +52,14 @@
         <li>Split Local Database Development (Microsoft Access)</li>
     </ul>
 
-    <footer>
-        <p> Last Modified: <span id="demo"></span> </p>
+<footer>
+      <p class="navlink"> Last Modified: <span id="demo"></span> </p>
         <script>
             const date = new Date(document.lastModified);
             document.getElementById("demo").innerHTML = date;
         </script>
-        <a href="mailto:paul.daniel.bailey@gmail.com">Send Email</a>
-    </footer>
+        <a href="mailto:paul.daniel.bailey@gmail.com" class="navlink">Send Email</a>
+   </footer>
 </body>
 
 </html>
